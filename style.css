@@ -90,6 +90,7 @@ body{
     justify-content: space-between;
     align-items: center;
     flex: 2;
+    flex-direction: row-reverse;
 }
 #like{
     font-weight: bold;
