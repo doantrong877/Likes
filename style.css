@@ -5,9 +5,22 @@
 }
 
 body{
-    padding: 20%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
+/*nav bar*/ 
+.nav{
+    background-color: black;
+    color: white;
+    padding: 2%;
+    margin-bottom: 3%;
+}
+
+#title{
+    text-align: center;
+    margin-bottom: 3%;
+}
 /*main-box*/
 .main-box{
     display: flex;
@@ -24,6 +37,8 @@ body{
     flex: 1;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
+    height: 30%;
 }
 .profile a{
     margin-top: 20%;
@@ -54,8 +69,9 @@ body{
     justify-content: space-evenly;
     padding: 5%;
     margin-left: 5%;
+    margin-bottom: 2%;
 }
-.user-box h2{
+.topbar h2{
     display: flex;
     flex:2;
 }
@@ -73,8 +89,21 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex: 1;
+    flex: 2;
 }
+#like{
+    font-weight: bold;
+    width: 80px;
+}
+#like-btn{
+    font-weight: bold;
+    width: 50px;
+    height: 30px;
+    margin-left: 10%;
+    background-color: rgb(232, 205, 51);
+    box-shadow: 4px 4px 4px black;
+}
+
 
 
 
